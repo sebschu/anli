@@ -58,7 +58,7 @@ Version information:
 ```
 python==3.7
 torch==1.8.1
-transformers==4.4.2 or later (tested: 3.0.2, 3.1.0, 4.0.0)
+transformers==4.4.2 
 ```
 
 Models: `RoBERTa`, `ALBert`, `BART`, `ELECTRA`, `XLNet`, `DeBERTa-v2`.  

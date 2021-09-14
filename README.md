@@ -57,11 +57,11 @@ Pre-trained NLI models can be easily called through huggingface model hub.
 Version information:
 ```
 python==3.7
-torch==1.7
-transformers==3.0.2 or later (tested: 3.0.2, 3.1.0, 4.0.0)
+torch==1.8.1
+transformers==4.4.2 or later (tested: 3.0.2, 3.1.0, 4.0.0)
 ```
 
-Models: `RoBERTa`, `ALBert`, `BART`, `ELECTRA`, `XLNet`.  
+Models: `RoBERTa`, `ALBert`, `BART`, `ELECTRA`, `XLNet`, `DeBERTa-v2`.  
 
 The training data is a combination of [`SNLI`](https://nlp.stanford.edu/projects/snli/), [`MNLI`](https://cims.nyu.edu/~sbowman/multinli/), [`FEVER-NLI`](https://github.com/easonnie/combine-FEVER-NSMN/blob/master/other_resources/nli_fever.md), [`ANLI (R1, R2, R3)`](https://github.com/facebookresearch/anli). Please also cite the datasets if you are using the pre-trained model.  
   
